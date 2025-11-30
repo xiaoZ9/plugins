@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         提取可参加活动的SKC - 已上架 - 商品列表 - SHEIN
 // @namespace    http://tampermonkey.net/
-// @version      1.0.5
+// @version      1.0.1
 // @description  提取可参加活动的SKC - 已上架 - 商品列表 - SHEIN
 // @author       小Z
 // @match        https://sellerhub.shein.com/*
@@ -124,5 +124,6 @@
         return await response.json();
     }
 })();
+
 
 
