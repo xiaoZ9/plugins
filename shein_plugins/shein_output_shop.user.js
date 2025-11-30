@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         提取可参加活动的SKC - 已上架 - 商品列表 - SHEIN
 // @namespace    http://tampermonkey.net/
-// @version      1.0.4
+// @version      1.0.5
 // @description  提取可参加活动的SKC - 已上架 - 商品列表 - SHEIN
-// @author       大大怪将军
+// @author       小Z
 // @match        https://sellerhub.shein.com/*
 // @grant        GM_addStyle
 // @grant        unsafeWindow
@@ -124,3 +124,4 @@
         return await response.json();
     }
 })();
+
